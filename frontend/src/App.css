@@ -1,0 +1,144 @@
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.leaflet-default-icon-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
+}
+
+
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(88, 87, 87);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(185, 184, 184);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 100%;
+  height: 30px;
+  /* border-radius: 10%; */
+  /* background-color:rgb(228, 202, 202); */
+  position: absolute;
+  top: 0px;
+  /* right: 20px; */
+  z-index: 400;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.logout {
+  background-color: rgb(155, 114, 106);
+  background-attachment: fixed;
+  top: 15px;
+  left: 70px;
+  position: absolute;
+  z-index: 400;
+}
+
+.login {
+  background-color: rgb(129, 71, 125);
+  margin: auto;
+  margin-left: 70px;
+  margin-top: 10px;
+  /*position: relative; */
+  margin-right: 10px;
+  /* margin-top: 50px; */
+}
+
+.register {
+  background-color: rgb(155, 114, 106);
+  margin: auto;
+  /* margin-left: 1400px;
+  margin-top: 10px; */
+  /* position: relative; */
+  /* top: 10px; */
+}
+
+.footer {
+  z-index: 999;
+  position: absolute;
+  padding: 5px;
+  /* width: 70px; */
+  height: 15px;
+  bottom: 0px;
+  left: 1270px;
+  background-color: rgb(161, 173, 201);
+}
